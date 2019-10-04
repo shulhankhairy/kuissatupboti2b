@@ -2,7 +2,6 @@ package Quiz;
 
 public class Mesin {
     private int kecepatan = 0;
-    private int kecepatanRenault = 0;
     private boolean kontakOn = false;
 
     public void status(String Merek){
@@ -34,13 +33,18 @@ public class Mesin {
                     System.out.println("Batas Kecepatan");
                 break;
             case "Renault":
-                this.kecepatanRenault += 55;
-                if (kecepatanRenault >= 385)
+                this.kecepatan += 55;
+                if (kecepatan >= 385)
                     System.out.println("Batas Kecepatan");
                 break;
             case "Mercedes":
                 this.kecepatan += 65;
                 if (kecepatan >= 430)
+                    System.out.println("Batas Kecepatan");
+                break;
+            case "Lorena":
+                this.kecepatan += 150;
+                if (kecepatan > 1500)
                     System.out.println("Batas Kecepatan");
                 break;
         }
@@ -54,13 +58,18 @@ public class Mesin {
                     System.out.println("Beri kecepatan dahulu");
                 break;
             case "Renault":
-                this.kecepatanRenault -= 20;
+                this.kecepatan -= 20;
                 if (this.kecepatan < 0)
                     System.out.println("Beri kecepatan dahulu");
                 break;
             case "Mercedes":
                 this.kecepatan -= 35;
                 if (this.kecepatan < 0)
+                    System.out.println("Beri kecepatan dahulu");
+                break;
+            case "Lorena":
+                this.kecepatan -= 1000;
+                if (kecepatan < 0)
                     System.out.println("Beri kecepatan dahulu");
                 break;
         }
