@@ -12,7 +12,6 @@ Terdapat 2 buah class, yang memiliki relasi "has-a" yaitu **Mobil** dan **Mesin*
 - Jenis mesin Mercedes dapat melakukan tambahKecepatan() 65 km/jam dan kurangKecepatan() 35 Km/jam
 - Kecepatan maksimum 430 Km/jam dan kecepatan mininum 0 Km/jam
 - Kecepatan Renault maksimum 385 Km/jam
-- Mesin Ferrari memiliki turbo, jika turbo diaktifkan, maka penambahan kecepatan menjadi 80 km/jam
 - Ketika mesin belum dinyalakan, Mobil tidak dapat melakukan penambahan atau pengurangan kecepatan
 - Ketika mesin menyala, Mobil diharuskan untuk dinyalakan terlebih dahulu
 
