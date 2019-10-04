@@ -34,6 +34,12 @@ public class Mesin {
         public void kurangiKecepatanFerrari(){
             if (Mo.On == true){
                 Mo.kecepatan -= 10;
+                if (Mo.kecepatan <= 0){
+                    Mo.kecepatan = 0;
+                    if (Mo.kecepatan==0) {
+                        System.out.println("Mobil Berhenti");
+                    }
+                }
             }else{
                 System.out.println("Kecepatan tidak bisa berkurang karena Mesin Mati!");
             }
@@ -72,6 +78,12 @@ public class Mesin {
         public void kurangiKecepatanRenault(){
             if (Mo.On == true){
                 Mo.kecepatan -= 20;
+                if (Mo.kecepatan <= 0){
+                    Mo.kecepatan = 0;
+                    if (Mo.kecepatan==0) {
+                        System.out.println("Mobil Berhenti");
+                    }
+                }
             }else{
                 System.out.println("Kecepatan tidak bisa berkurang karena Mesin Mati!");
             }
@@ -110,6 +122,12 @@ public class Mesin {
         public void kurangiKecepatanMercedes(){
             if (Mo.On == true){
                 Mo.kecepatan -= 35;
+                if (Mo.kecepatan <= 0){
+                    Mo.kecepatan = 0;
+                    if (Mo.kecepatan==0) {
+                        System.out.println("Mobil Berhenti");
+                    }
+                }
             }else{
                 System.out.println("Kecepatan tidak bisa berkurang karena Mesin Mati!");
             }
@@ -147,6 +165,12 @@ public class Mesin {
         public void kurangiKecepatanHonda(){
             if (Mo.On == true){
                 Mo.kecepatan -= 20;
+                if (Mo.kecepatan <= 0){
+                    Mo.kecepatan = 0;
+                    if (Mo.kecepatan==0) {
+                        System.out.println("Mobil Berhenti");
+                    }
+                }
             }else{
                 System.out.println("Kecepatan tidak bisa berkurang karena Mesin Mati!");
             }
