@@ -1,0 +1,43 @@
+public class MainClass {
+     public static void main(String[] args) {
+        Mesin m1 = new Mesin("Ferrari");
+        m1.nyalakanMesin();
+        mobil Mbl1 = new mobil("Ferrari",m1);
+        mbl1.tambahKecepatan();
+        mbl1.kurangiKecepatan();
+        mbl1.printStatus();
+        mbl1.tambahKecepatan();
+        mbl1.tambahKecepatan();
+        mbl1.tambahKecepatan();
+        mbl1.tambahKecepatan();
+        mbl1.tambahKecepatan();
+        mbl1.tambahKecepatan();
+        mbl1.tambahKecepatan();
+        mbl1.printStatus();
+        System.out.println();
+        
+        Mesin m2 = new Mesin("Renault");
+        m2.nyalakanMesin();
+        Mobil mbl2 = new Mobil("Renault",m2);
+        mbl2.tambahKecepatan();
+        mbl2.kurangiKecepatan();
+        mbl22.printStatus();
+        System.out.println();
+        
+        Mesin m3 = new Mesin("Mercedes");
+        m3.nyalakanMesin();
+        Mobil mbl3 = new Mobil("Mercedes",m3);
+        mbl3.tambahKecepatan();
+        mbl3.kurangiKecepatan();
+        mbl3.printStatus();
+        System.out.println();
+        
+        Mesin m4 = new Mesin("BugatiVeron");
+        m4.nyalakanMesin();
+        mobil mbl4 = new mobil("BugatiVeron",m4);
+        mbl4.tambahKecepatan();
+        mbl4.kurangiKecepatan();
+        mbl4.printStatus();
+        System.out.println();
+    }
+}

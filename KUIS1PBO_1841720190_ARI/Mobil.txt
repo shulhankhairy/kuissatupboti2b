@@ -1,0 +1,36 @@
+public class Mobil{
+    private String Mobil;
+    private mesin mesin;
+
+    public SepedaMotor(String Mobil,  mesin mesin) {
+        this.merkMobil = merekMobil;
+        this.mesin = mesin;
+    }
+
+    public String getMobil() {
+        return merekMotor;
+    }
+
+    public void setMermobil(String merekMobil) {
+        this.merekMobil = merekMobil;
+    }
+
+    public Mesin getMesin() {
+        return mesin;
+    }
+
+    public void setMesin(Mesin mesin) {
+        this.mesin = mesin;
+    }
+    public void tambahKecepatan(){
+        mesin.tambahKecepatan();
+    }
+    public void kurangiKecepatan(){
+        mesin.kurangiKecepatan();
+    }
+    public void printStatus(){
+        System.out.println(merekMotor);
+        mesin.printStatus();
+        
+    } 
+}
